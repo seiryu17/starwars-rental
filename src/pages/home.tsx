@@ -39,6 +39,7 @@ const MovieCatalog = () => {
               >
                 <div className="absolute inset-0 bg-gradient-to-r from-black via-transparent to-black opacity-75"></div>
               </div>
+
               <div className="relative h-full flex flex-col justify-center p-8 text-center">
                 <h2 className="text-white text-5xl font-bold mb-4 animate-fadeInUp">
                   {featuredMovie.title}

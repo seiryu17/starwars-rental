@@ -14,6 +14,7 @@ function Card({ movie, button }: CardProps) {
 
   return (
     <div
+      data-testid="movie-card"
       onClick={() => navigate(`/films/${id}`)}
       className="max-w-sm rounded overflow-hidden shadow-lg bg-gray-800 relative cursor-pointer"
     >

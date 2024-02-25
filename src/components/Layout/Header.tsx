@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink, useNavigate } from "react-router-dom";
-import Badge from "../../Badge";
+import Badge from "../Badge";
 import { Movie } from "../../types/movie";
 import ASSETS from "../../utils/constant/assets";
 import { useCart } from "../../store/CartContext";

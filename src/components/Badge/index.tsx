@@ -1,5 +1,5 @@
 import React from "react";
-import { BadgeTypes } from "../types/components/badge";
+import { BadgeTypes } from "../../types/components/badge";
 
 function Badge({ count }: BadgeTypes) {
   return (
