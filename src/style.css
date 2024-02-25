@@ -36,3 +36,12 @@ body {
 .animate-fadeInUp.delay-200 {
   animation-delay: 0.05s;
 }
+
+.slick-next {
+  right: 15px !important;
+}
+
+.slick-prev {
+  left: 15px !important;
+  z-index: 99;
+}
